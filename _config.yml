@@ -102,7 +102,7 @@ collections:
     defaults:
       layout: post
     output: true
-    
+
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
@@ -221,7 +221,7 @@ scholar:
   group_by: year
   group_order: descending
 
-# Display different badges withs stats for your publications
+# Display different badges withs stats for your research
 # Customize badge behavior in _layouts/bib.liquid
 enable_publication_badges:
   altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
