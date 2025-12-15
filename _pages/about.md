@@ -19,6 +19,6 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 
-I am an applied microeconomist interested in studying the digital economy and the economics of technology and organizations. My recent work leverages large-scale microdata on open source software organizations to learn what practices can help organizations become more reslient to the departures of key members. 
+I am an applied microeconomist interested in studying the digital economy and the economics of technology and organizations. My recent work leverages large-scale microdata on open source software organizations to learn what practices enable organizations to be more resilient to the departures of important members. 
 
 Since 2024, I have been a [Predoctoral Research Associate](https://www.hbs.edu/ra/predoctoral) at Harvard Business School working for Jesse Shapiro. I graduated from the University of Chicago in 2024, with a bachelor's in Economics (Honors) and a master's in Computer Science. In college, I interned at Citadel LLC as a Quantitative Trading Intern and worked as a research assistant for professors at Chicago Booth and NYU Stern.
