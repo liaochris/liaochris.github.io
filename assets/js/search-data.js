@@ -18,24 +18,12 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
+            window.location.href = "/assets/pdf/Resume.pdf";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather.html";
-            },},{id: "news-the-working-paper-for-organizational-resilience-evidence-from-open-source-software-is-now-available-on-my-research-page-this-paper-studies-what-organizational-practices-are-associated-with-increased-organizational-resilience-this-doubled-as-my-writing-sample-for-graduate-school-applications",
+        },{id: "news-the-working-paper-for-organizational-resilience-evidence-from-open-source-software-is-now-available-on-my-research-page-this-paper-studies-what-organizational-practices-are-associated-with-increased-organizational-resilience-this-doubled-as-my-writing-sample-for-graduate-school-applications",
           title: 'The working paper for Organizational Resilience: Evidence from Open Source Software is now...',
           description: "",
           section: "News",},{id: "news-the-working-paper-for-generalized-random-forest-event-studies-is-now-available-on-my-research-page-this-brief-note-shows-how-generalized-random-forests-can-be-used-to-estimate-heterogeneous-treatment-effects-in-dynamic-event-study-settings",
