@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-The working paper for **Generalized Random Forest Event Studies** is now available on my [research page](/research/). This brief note shows how generalized random forests can be used to estimate heterogeneous treatment effects in dynamic event study settings.
+**[New working paper]** [Generalized Random Forest Event Studies](/research/): I show how generalized random forests [(Athey et al. 2019)](https://doi.org/10.1214/18-AOS1709) can be used to estimate heterogeneous treatment effects in dynamic event study settings.
