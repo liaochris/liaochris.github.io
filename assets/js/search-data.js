@@ -23,18 +23,24 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/assets/pdf/Resume.pdf";
           },
-        },{id: "news-the-working-paper-for-organizational-resilience-evidence-from-open-source-software-is-now-available-on-my-research-page-this-paper-studies-what-organizational-practices-are-associated-with-increased-organizational-resilience-this-doubled-as-my-writing-sample-for-graduate-school-applications",
-          title: 'The working paper for Organizational Resilience: Evidence from Open Source Software is now...',
+        },{id: "news-new-working-paper-organizational-resilience-evidence-from-open-source-software-i-show-which-organizational-practices-predict-increased-resilience-to-departures-in-open-source-software-organizations",
+          title: '[New working paper] Organizational Resilience: Evidence from Open Source Software: I show which...',
           description: "",
-          section: "News",},{id: "news-the-working-paper-for-generalized-random-forest-event-studies-is-now-available-on-my-research-page-this-brief-note-shows-how-generalized-random-forests-can-be-used-to-estimate-heterogeneous-treatment-effects-in-dynamic-event-study-settings",
-          title: 'The working paper for Generalized Random Forest Event Studies is now available on...',
+          section: "News",},{id: "news-new-working-paper-generalized-random-forest-event-studies-i-show-how-generalized-random-forests-athey-et-al-2019-can-be-used-to-estimate-heterogeneous-treatment-effects-in-dynamic-event-study-settings",
+          title: '[New working paper] Generalized Random Forest Event Studies: I show how generalized random...',
+          description: "",
+          section: "News",},{id: "news-life-update-i-joined-openai-as-a-visiting-economics-researcher-to-study-the-economic-impacts-of-ai",
+          title: '[Life update] I joined OpenAI as a visiting economics researcher to study the...',
+          description: "",
+          section: "News",},{id: "news-life-update-i-started-my-phd-in-economics-at-uc-berkeley-feel-free-to-reach-out-via-email-if-you-re-in-the-bay-area",
+          title: '[Life update] I started my PhD in economics at UC Berkeley. Feel free...',
           description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%63%68%72%69%73%6C%69%61%6F@%75%63%68%69%63%61%67%6F.%65%64%75", "_blank");
+          window.open("mailto:%63%68%72%69%73%6C%69%61%6F@%62%65%72%6B%65%6C%65%79.%65%64%75", "_blank");
         },
       },{
         id: 'social-github',
