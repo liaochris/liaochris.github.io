@@ -35,6 +35,9 @@ ninja.data = [{
           section: "News",},{id: "news-life-update-i-started-my-phd-in-economics-at-uc-berkeley-feel-free-to-reach-out-via-email-if-you-re-in-the-bay-area",
           title: '[Life update] I started my PhD in economics at UC Berkeley. Feel free...',
           description: "",
+          section: "News",},{id: "news-new-working-paper-science-at-the-frontier-how-scientists-use-chatgpt-with-carl-shan-and-aaron-chatterji-we-study-how-academic-scientists-use-ai-using-over-half-a-million-scientific-messages-to-chatgpt",
+          title: '[New working paper] Science at the Frontier: How Scientists Use ChatGPT (with Carl...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
