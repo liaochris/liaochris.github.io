@@ -15,8 +15,8 @@ social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  scrollable: false # adds a vertical scroll bar if there are more than 3 news items
+  limit: 3 # leave blank to include all the news in the `_news` folder
 ---
 
 I am a first-year PhD student in Economics at [UC Berkeley](https://econ.berkeley.edu/), supported by the Chancellor's Fellowship. I am also a visiting economic researcher at [OpenAI](https://openai.com/). My research interests are in technology, innovation and organizations.

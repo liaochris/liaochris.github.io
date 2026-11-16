@@ -746,6 +746,20 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
 
+      div[id] {
+        scroll-margin-top: 5rem;
+      }
+
+      .paper-anchor {
+        font-size: 0.75em;
+        margin-left: 0.25rem;
+        color: var(--global-text-color-light);
+      }
+
+      .paper-anchor:hover {
+        color: var(--global-theme-color);
+      }
+
       .preview {
       }
 

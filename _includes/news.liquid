@@ -7,15 +7,15 @@
         style="max-height: 60vw"
       {% endif %}
     >
-      <table class="table table-sm table-borderless">
+      <table class="table table-sm table-borderless{% if include.limit and page.announcements.limit and news_size > page.announcements.limit %} mb-0{% endif %}">
         {% assign news = site.news | reverse %}
         {% if include.limit and page.announcements.limit %}
           {% assign news_limit = page.announcements.limit %}
         {% else %}
           {% assign news_limit = news_size %}
         {% endif %}
-        {% for item in news limit: news_limit %}
-          <tr>
+        {% for item in news %}
+          <tr {% if forloop.index > news_limit %}class="news-extra d-none"{% endif %}>
             <th scope="row" style="width: 20%">{{ item.date | date: '%b %Y' }}</th>
             <td>
               {% if item.inline %}
@@ -28,6 +28,19 @@
         {% endfor %}
       </table>
     </div>
+    {% if news_size > news_limit %}
+      <a href="#" role="button" id="news-toggle" style="display: inline-block; padding-left: 0.3rem; margin-bottom: 2rem">Show more</a>
+      <script>
+        document.getElementById('news-toggle').addEventListener('click', function (e) {
+          e.preventDefault();
+          var expanded = this.textContent === 'Show less';
+          document.querySelectorAll('.news-extra').forEach(function (row) {
+            row.classList.toggle('d-none', expanded);
+          });
+          this.textContent = expanded ? 'Show more' : 'Show less';
+        });
+      </script>
+    {% endif %}
   {% else %}
     <p>No news so far...</p>
   {% endif %}
