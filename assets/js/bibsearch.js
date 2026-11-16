@@ -52,6 +52,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const updateInputField = () => {
     const hashValue = decodeURIComponent(window.location.hash.substring(1)); // Remove the '#' character
+    // A hash matching a paper's bib key is an anchor link to that paper, not a search term
+    if (hashValue && document.getElementById(hashValue)) {
+      document.getElementById("bibsearch").value = "";
+      filterItems("");
+      return;
+    }
     document.getElementById("bibsearch").value = hashValue;
     filterItems(hashValue);
   };
